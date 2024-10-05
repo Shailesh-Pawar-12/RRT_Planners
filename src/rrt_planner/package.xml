@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>rrt_planner</name>
+  <version>0.0.1</version>
+  <description>RRT, RRTConnect and RRT* path planning algorithms with ROS 2 integration</description>
+  <maintainer email="shaileshpawar320@gmail.com">Shailesh Pawar</maintainer>
+  <license>Apache 2.0</license>
+
+  <depend>rclcpp</depend>
+  <depend>nav_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>dstar_lite_interfaces</depend>
+  <depend>rclcpp_action</depend>
+  <depend>visualization_msgs</depend>
+  <depend>rclcpp_lifecycle</depend>
+  <depend>lifecycle_msgs</depend>
+  <depend>Eigen3</depend>  
+  
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
